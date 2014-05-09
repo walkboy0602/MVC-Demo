@@ -1,0 +1,16 @@
+﻿@model MVC_Play_Around.Models.ListingModels
+@{
+    //ViewBag.Title = "Index";
+}
+
+<ul>
+    <li>@Html.DisplayFor(model => model.id)</li>
+    <li>@Html.DisplayFor(model => model.Title)</li>
+    <li>@Html.DisplayFor(model => model.Price)</li>
+</ul>
+
+
+@*@for(int i =0; i<ViewBag.NoOfTimes; i++)
+{
+    <h2>@ViewBag.Message</h2>
+}*@

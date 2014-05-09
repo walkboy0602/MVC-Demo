@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Detail";
+}
+
+<h2>Detail</h2>
+<ul>
+    @for (int i = 1; i < ViewBag.NumTimes; i++)
+    {
+        <li>@ViewBag.Message</li>
+    }
+</ul>
